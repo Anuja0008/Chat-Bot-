@@ -1,0 +1,22 @@
+{
+  "name": "chatbot-backend",
+  "version": "1.0.0",
+  "description": "Chatbot backend using Hugging Face API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
